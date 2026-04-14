@@ -1,6 +1,6 @@
 <?php
 /**
- * Plugin Name: Custom Email Sender
+ * Plugin Name: Custom Email Sender for WordPress
  * Description: Send custom HTML emails with multiple attachments from WordPress admin
  * Version: 1.1.3
  * Author: Syed Badar
