@@ -1,0 +1,51 @@
+#file-list li {
+    display: flex;
+    align-items: center;
+    gap: 10px;
+    padding: 5px 8px;
+    margin-bottom: 4px;
+    background: #f9f9f9;
+    border: 1px solid #ddd;
+    border-radius: 3px;
+    max-width: 520px;
+}
+#file-list li.error {
+    background: #fff0f0;
+    border-color: #c00;
+}
+#file-list li .file-name {
+    flex: 1;
+    font-size: 13px;
+    overflow: hidden;
+    text-overflow: ellipsis;
+    white-space: nowrap;
+}
+#file-list li .file-size {
+    color: #888;
+    font-size: 12px;
+    white-space: nowrap;
+}
+#file-list li .file-error {
+    color: #c00;
+    font-size: 12px;
+    white-space: nowrap;
+}
+#file-list li .remove-file {
+    cursor: pointer;
+    color: #a00;
+    font-weight: bold;
+    font-size: 16px;
+    line-height: 1;
+    background: none;
+    border: none;
+    padding: 0 4px;
+}
+#file-list li .remove-file:hover { color: #f00; }
+
+/* Helper text */
+.ces-server-limit-info {
+    margin-top: 5px;
+    font-style: italic;
+    color: #666;
+    font-size: 12px;
+}
