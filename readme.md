@@ -1,4 +1,4 @@
-# Custom Email Sender
+# Custom Email Sender for WordPress
 
 Send custom HTML emails with multiple attachments from the WordPress admin dashboard.
 
